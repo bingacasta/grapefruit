@@ -7,7 +7,7 @@ EverydayTask::EverydayTask()
 
 QString EverydayTask::getTask()
 {
-    return m_task;
+    return m_task;//store everyday task
 }
 QString EverydayTask::getTime()
 {
@@ -15,12 +15,12 @@ QString EverydayTask::getTime()
 }
 int EverydayTask::getLevel()
 {
-    return m_level;
+    return m_level;//the importance
 }
 
 int EverydayTask::getFinish()
 {
-    return m_finish;
+    return m_finish;//finish or not 
 }
 
 void EverydayTask::setMsg(QString task, QString time, int finish, int level)
