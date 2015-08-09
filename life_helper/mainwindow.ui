@@ -1,0 +1,2594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>901</width>
+    <height>652</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>901</width>
+    <height>652</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-color: rgb(85, 170, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="main_wid">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>110</y>
+      <width>911</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="stackedWidgetPage1">
+     <widget class="QWidget" name="gridLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>0</y>
+        <width>611</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_4">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="tuesBtn">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>220</y>
+            <width>81</width>
+            <height>101</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+border-image: url(:/menu/images/星期二.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/星期二被选中.png);
+}
+
+QPushButton:pressed{border-image: url(:/menu/images/星期二.png);}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>621</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/大象.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="monBtn">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>260</y>
+            <width>91</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{border-image: url(:/menu/images/星期一.png);}
+QPushButton:hover{border-image: url(:/menu/images/星期一被选中.png);}
+
+QPushButton:pressed{border-image: url(:/menu/images/星期一.png);}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="thurBtn">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>200</y>
+            <width>51</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{border-image: url(:/menu/images/星期四.png);}
+QPushButton:hover{
+border-image: url(:/menu/images/星期四被选中.png);
+}
+QPushButton:pressed{border-image: url(:/menu/images/星期四.png);}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="friBtn">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>260</y>
+            <width>51</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{border-image: url(:/menu/images/星期五.png);}
+QPushButton:hover{
+border-image: url(:/menu/images/星期五被选中.png);
+}
+QPushButton:pressed{border-image: url(:/menu/images/星期五.png);}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="satBtn">
+          <property name="geometry">
+           <rect>
+            <x>460</x>
+            <y>330</y>
+            <width>81</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{border-image: url(:/menu/images/星期六.png);}
+QPushButton:hover{
+border-image: url(:/menu/images/星期六被选中.png);
+}
+QPushButton:pressed{border-image: url(:/menu/images/星期六.png);}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="wenBtn">
+          <property name="geometry">
+           <rect>
+            <x>250</x>
+            <y>330</y>
+            <width>71</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{border-image: url(:/menu/images/星期三.png);}
+QPushButton:hover{
+border-image: url(:/menu/images/星期三被选中.png);}
+
+QPushButton:pressed{border-image: url(:/menu/images/星期三.png);}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="sunBtn">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>390</y>
+            <width>91</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{border-image: url(:/menu/images/星期日.png);}
+QPushButton:hover{
+border-image: url(:/menu/images/星期天被选中.png);
+}
+QPushButton:pressed{border-image: url(:/menu/images/星期日.png);}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>label_3</zorder>
+         <zorder>monBtn</zorder>
+         <zorder>tuesBtn</zorder>
+         <zorder>thurBtn</zorder>
+         <zorder>friBtn</zorder>
+         <zorder>satBtn</zorder>
+         <zorder>wenBtn</zorder>
+         <zorder>sunBtn</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QFrame" name="frame_7">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_30">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>291</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/背景.png);
+background-color: rgb(0, 123, 87);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QTextEdit" name="textEdit">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>261</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/圆角矩形.png);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>20</y>
+            <width>141</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/每日任务.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="addBtn">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>80</y>
+            <width>41</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border-image: url(:/menu/images/添加.png);
+
+}
+
+QPushButton:hover{
+
+	border-image: url(:/menu/images/添加1.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/添加.png);
+
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_34">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>80</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 2px solid rgb(124, 124, 124);
+border-top:0;
+border-bottom:none;
+border-right:0;
+border-color: rgb(0, 0, 0);
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_task">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>120</y>
+            <width>261</width>
+            <height>401</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+         </widget>
+         <zorder>label_30</zorder>
+         <zorder>textEdit</zorder>
+         <zorder>label</zorder>
+         <zorder>label_34</zorder>
+         <zorder>addBtn</zorder>
+         <zorder>listWidget_task</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="renmai_swid">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>111</y>
+      <width>901</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="renmai_stackedWidgetPage1">
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="styleSheet">
+          <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_33">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>291</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/背景.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QTextEdit" name="textEdit_3">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>70</y>
+            <width>291</width>
+            <height>471</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;楷体&quot;;
+background-color: rgb(0, 123, 87);</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>20</y>
+            <width>141</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:0;
+font: 18pt  &quot;宋体&quot;;
+background-color: rgb(0, 123, 87);</string>
+          </property>
+          <property name="text">
+           <string>分组名称</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_contact">
+          <property name="geometry">
+           <rect>
+            <x>15</x>
+            <y>90</y>
+            <width>261</width>
+            <height>431</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>0</y>
+        <width>601</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_5">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QStackedWidget" name="renmai1">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>611</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <widget class="QWidget" name="zhangben2Page1_2">
+           <widget class="QPushButton" name="pushButton_11">
+            <property name="geometry">
+             <rect>
+              <x>120</x>
+              <y>410</y>
+              <width>51</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/menu/images/水滴.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="geometry">
+             <rect>
+              <x>100</x>
+              <y>480</y>
+              <width>31</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/menu/images/水滴.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>160</y>
+              <width>111</width>
+              <height>111</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{border-image: url(:/menu/images/朋友.png);}
+QPushButton:hover{
+border-image: url(:/menu/images/朋友被选中.png);
+}
+QPushButton:pressed{border-image: url(:/menu/images/朋友.png);}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>340</y>
+              <width>71</width>
+              <height>71</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/menu/images/水滴.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_14">
+            <property name="geometry">
+             <rect>
+              <x>120</x>
+              <y>230</y>
+              <width>101</width>
+              <height>101</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{border-image: url(:/menu/images/同事.png);}
+QPushButton:hover{	border-image: url(:/menu/images/同事被选中.png);}
+QPushButton:pressed{border-image: url(:/menu/images/同事.png);}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_12">
+            <property name="geometry">
+             <rect>
+              <x>60</x>
+              <y>30</y>
+              <width>131</width>
+              <height>131</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{border-image: url(:/menu/images/家人.png);}
+QPushButton:hover{
+border-image: url(:/menu/images/家人被选中.png);
+}
+QPushButton:pressed{border-image: url(:/menu/images/家人.png);}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_4">
+            <property name="geometry">
+             <rect>
+              <x>-10</x>
+              <y>0</y>
+              <width>611</width>
+              <height>531</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/menu/images/人脉界面.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="geometry">
+             <rect>
+              <x>520</x>
+              <y>30</y>
+              <width>51</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+border-image: url(:/menu/images/笔记添加按钮1.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/笔记添加按钮.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/笔记添加按钮1.png);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <zorder>label_4</zorder>
+           <zorder>pushButton_12</zorder>
+           <zorder>pushButton_8</zorder>
+           <zorder>pushButton_11</zorder>
+           <zorder>pushButton_14</zorder>
+           <zorder>pushButton_9</zorder>
+           <zorder>pushButton_10</zorder>
+           <zorder>pushButton_7</zorder>
+          </widget>
+         </widget>
+         <widget class="QStackedWidget" name="renmai2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>621</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <widget class="QWidget" name="zhangben2Page1_3">
+           <widget class="QWidget" name="gridLayoutWidget_5">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>140</y>
+              <width>531</width>
+              <height>361</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_2">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QLabel" name="label_19">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>65</width>
+                  <height>23</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:0;</string>
+                </property>
+                <property name="text">
+                 <string>姓名：</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_20">
+                <property name="geometry">
+                 <rect>
+                  <x>300</x>
+                  <y>20</y>
+                  <width>65</width>
+                  <height>23</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:0;</string>
+                </property>
+                <property name="text">
+                 <string>分组：</string>
+                </property>
+               </widget>
+               <widget class="QComboBox" name="comboBox">
+                <property name="geometry">
+                 <rect>
+                  <x>390</x>
+                  <y>20</y>
+                  <width>87</width>
+                  <height>22</height>
+                 </rect>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>家人</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>同学</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>朋友</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>同事</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>小区</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>驴友</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>其他</string>
+                 </property>
+                </item>
+               </widget>
+               <widget class="QLabel" name="label_26">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>70</y>
+                  <width>61</width>
+                  <height>23</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:0;</string>
+                </property>
+                <property name="text">
+                 <string>QQ</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_21">
+                <property name="geometry">
+                 <rect>
+                  <x>300</x>
+                  <y>70</y>
+                  <width>50</width>
+                  <height>23</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:0;</string>
+                </property>
+                <property name="text">
+                 <string>手机</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_25">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>50</width>
+                  <height>23</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:0;</string>
+                </property>
+                <property name="text">
+                 <string>生日</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_23">
+                <property name="geometry">
+                 <rect>
+                  <x>300</x>
+                  <y>120</y>
+                  <width>65</width>
+                  <height>23</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:0;</string>
+                </property>
+                <property name="text">
+                 <string>职位：</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_22">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>170</y>
+                  <width>65</width>
+                  <height>23</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:0;</string>
+                </property>
+                <property name="text">
+                 <string>邮箱：</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_24">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>220</y>
+                  <width>50</width>
+                  <height>23</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border:0;</string>
+                </property>
+                <property name="text">
+                 <string>地址</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="lineEdit_name">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>20</y>
+                  <width>121</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="lineEdit_qq">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>70</y>
+                  <width>121</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="lineEdit_email">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>170</y>
+                  <width>121</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="lineEdit_address">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>220</y>
+                  <width>121</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="lineEdit_phone">
+                <property name="geometry">
+                 <rect>
+                  <x>380</x>
+                  <y>70</y>
+                  <width>121</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="lineEdit_job">
+                <property name="geometry">
+                 <rect>
+                  <x>380</x>
+                  <y>120</y>
+                  <width>121</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_20">
+                <property name="geometry">
+                 <rect>
+                  <x>290</x>
+                  <y>310</y>
+                  <width>93</width>
+                  <height>28</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(214, 214, 214, 255), stop:0.5 rgba(236, 236, 236, 255));
+border: 1px solid rgb(124, 124, 124);
+border-radius:5px;
+border-image:0;
+}
+QPushButton:hover{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:5px;
+  border: 1px solid #3C80B1;
+border-image:0;  
+}
+QPushButton:pressed{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+border-image:0;
+}</string>
+                </property>
+                <property name="text">
+                 <string>取消</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="sureBtn">
+                <property name="geometry">
+                 <rect>
+                  <x>420</x>
+                  <y>310</y>
+                  <width>93</width>
+                  <height>28</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(214, 214, 214, 255), stop:0.5 rgba(236, 236, 236, 255));
+border: 1px solid rgb(124, 124, 124);
+border-radius:5px;
+border-image:0;
+}
+QPushButton:hover{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:5px;
+  border: 1px solid #3C80B1;
+border-image:0;  
+}
+QPushButton:pressed{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+border-image:0;
+}</string>
+                </property>
+                <property name="text">
+                 <string>确定</string>
+                </property>
+               </widget>
+               <widget class="QDateEdit" name="dateEdit_bir">
+                <property name="geometry">
+                 <rect>
+                  <x>90</x>
+                  <y>120</y>
+                  <width>110</width>
+                  <height>22</height>
+                 </rect>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QLabel" name="label_27">
+            <property name="geometry">
+             <rect>
+              <x>190</x>
+              <y>50</y>
+              <width>171</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 20pt &quot;楷体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>好友添加</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="jishi_wid">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>901</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="stackedWidgetPage1_3">
+     <widget class="QWidget" name="verticalLayoutWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="styleSheet">
+          <string notr="true">
+background-color: rgb(0, 123, 87);
+</string>
+         </property>
+         <widget class="QListWidget" name="listWidget_2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>70</y>
+            <width>291</width>
+            <height>471</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="mybijilab">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>10</y>
+            <width>171</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/我的笔记.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_essay">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>80</y>
+            <width>256</width>
+            <height>441</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>0</y>
+        <width>621</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_14">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QWidget" name="jishi2" native="true">
+          <property name="geometry">
+           <rect>
+            <x>-2</x>
+            <y>-12</y>
+            <width>621</width>
+            <height>561</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <widget class="QLabel" name="label_32">
+           <property name="geometry">
+            <rect>
+             <x>-10</x>
+             <y>-10</y>
+             <width>621</width>
+             <height>561</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/menu/images/添加笔记.png);
+border:0;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="okBtn_2">
+           <property name="geometry">
+            <rect>
+             <x>450</x>
+             <y>460</y>
+             <width>91</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	border-image: url(:/menu/images/确定被选中.png);
+}
+QPushButton:hover{
+	border-image: url(:/menu/images/确定.png);
+}
+QPushButton:pressed{
+	border-image: url(:/menu/images/确定被选中.png);
+}
+
+
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="cancelBtn_6">
+           <property name="geometry">
+            <rect>
+             <x>350</x>
+             <y>460</y>
+             <width>81</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	border-image: url(:/menu/images/取消.png);
+}
+QPushButton:hover{
+  
+	border-image: url(:/menu/images/取消被选中.png);
+}
+QPushButton:pressed{
+	border-image: url(:/menu/images/取消.png);
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="textEdit_essay">
+           <property name="geometry">
+            <rect>
+             <x>93</x>
+             <y>146</y>
+             <width>401</width>
+             <height>271</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:0;</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="jishi1" native="true">
+          <property name="geometry">
+           <rect>
+            <x>-2</x>
+            <y>-2</y>
+            <width>631</width>
+            <height>561</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+border-image: url(:/menu/images/背景1.png);
+</string>
+          </property>
+          <widget class="QPushButton" name="addBtn_6">
+           <property name="geometry">
+            <rect>
+             <x>480</x>
+             <y>50</y>
+             <width>71</width>
+             <height>71</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	border-image: url(:/menu/images/笔记添加按钮1.png);
+}
+QPushButton:hover{
+  
+	border-image: url(:/menu/images/笔记添加按钮.png);
+}
+QPushButton:pressed{
+	border-image: url(:/menu/images/笔记添加按钮1.png);
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_31">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>50</y>
+             <width>511</width>
+             <height>461</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/menu/images/不可编辑书本.png);
+border:0;
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <zorder>label_31</zorder>
+          <zorder>addBtn_6</zorder>
+         </widget>
+         <zorder>jishi1</zorder>
+         <zorder>jishi2</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="zhangben_wid_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>901</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="stackedWidget_3Page1_2">
+     <widget class="QWidget" name="gridLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>0</y>
+        <width>611</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_10">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QStackedWidget" name="zhangben1">
+          <property name="geometry">
+           <rect>
+            <x>-1</x>
+            <y>-1</y>
+            <width>621</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <widget class="QWidget" name="zhangben1Page1">
+           <widget class="QPushButton" name="incomeBtn">
+            <property name="geometry">
+             <rect>
+              <x>100</x>
+              <y>40</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+border-image: url(:/menu/images/收入.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/收入 被选中.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/收入.png);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QListView" name="listView_2">
+            <property name="geometry">
+             <rect>
+              <x>410</x>
+              <y>70</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-top:0;border-right:0;border-left:0;
+background-color: rgb(232, 195, 79);</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_17">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>621</width>
+              <height>531</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/menu/images/财务界面.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="outcomeBtn">
+            <property name="geometry">
+             <rect>
+              <x>420</x>
+              <y>40</y>
+              <width>81</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+border-image: url(:/menu/images/支出.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/支出 被选中.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/支出.png);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QListView" name="listView">
+            <property name="geometry">
+             <rect>
+              <x>80</x>
+              <y>70</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-top:0;border-right:0;border-left:0;
+background-color: rgb(232, 195, 79);</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="addBtn_3">
+            <property name="geometry">
+             <rect>
+              <x>560</x>
+              <y>20</y>
+              <width>31</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+border-image: url(:/menu/images/笔记添加按钮(1).png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/添加按钮按下.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/笔记添加按钮(1).png);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <zorder>label_17</zorder>
+           <zorder>outcomeBtn</zorder>
+           <zorder>listView</zorder>
+           <zorder>incomeBtn</zorder>
+           <zorder>listView_2</zorder>
+           <zorder>addBtn_3</zorder>
+          </widget>
+         </widget>
+         <widget class="QStackedWidget" name="zhangben2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>621</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(0, 123, 87);
+</string>
+          </property>
+          <widget class="QWidget" name="zhangben2Page1">
+           <widget class="QListWidget" name="listWidget">
+            <property name="geometry">
+             <rect>
+              <x>150</x>
+              <y>50</y>
+              <width>301</width>
+              <height>391</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 123, 87);
+border:0;</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_19">
+            <property name="geometry">
+             <rect>
+              <x>360</x>
+              <y>450</y>
+              <width>81</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{border-image: url(:/menu/images/确定.png);}
+QPushButton:hover{
+border-image: url(:/menu/images/确定被选中.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/确定.png);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_29">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>621</width>
+              <height>551</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/menu/images/记一笔.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::RichText</enum>
+            </property>
+           </widget>
+           <zorder>label_29</zorder>
+           <zorder>pushButton_19</zorder>
+           <zorder>listWidget</zorder>
+          </widget>
+         </widget>
+         <widget class="QStackedWidget" name="zhangben3">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>621</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <widget class="QWidget" name="zhangben2Page1_4">
+           <widget class="QLabel" name="label_9">
+            <property name="geometry">
+             <rect>
+              <x>220</x>
+              <y>80</y>
+              <width>131</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:0;
+font: 18pt &quot;宋体&quot;;
+border-image: url(:/menu/images/记一笔标题.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_18">
+            <property name="geometry">
+             <rect>
+              <x>-9</x>
+              <y>-6</y>
+              <width>621</width>
+              <height>551</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/menu/images/记一笔.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::RichText</enum>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="saveBtn">
+            <property name="geometry">
+             <rect>
+              <x>250</x>
+              <y>400</y>
+              <width>61</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+border-image: url(:/menu/images/保存.png);
+}
+QPushButton:hover{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:10px;
+  border: 1px solid #3C80B1;  
+font: 75 18pt &quot;新宋体&quot;;
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/保存.png);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="cancelBtn_4">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>400</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+border-image: url(:/menu/images/取消.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/取消被选中.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/取消.png);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QTabWidget" name="tabWidget">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>160</y>
+              <width>271</width>
+              <height>191</height>
+             </rect>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::RightToLeft</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/menu/images/背景.png);border:none;
+</string>
+            </property>
+            <property name="tabShape">
+             <enum>QTabWidget::Rounded</enum>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="elideMode">
+             <enum>Qt::ElideNone</enum>
+            </property>
+            <property name="usesScrollButtons">
+             <bool>true</bool>
+            </property>
+            <property name="documentMode">
+             <bool>true</bool>
+            </property>
+            <property name="tabsClosable">
+             <bool>false</bool>
+            </property>
+            <property name="movable">
+             <bool>false</bool>
+            </property>
+            <property name="tabBarAutoHide">
+             <bool>false</bool>
+            </property>
+            <widget class="QWidget" name="tab">
+             <attribute name="title">
+              <string>收入</string>
+             </attribute>
+             <widget class="QLineEdit" name="lineEdit_5">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>40</y>
+                <width>231</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/menu/images/圆角矩形.png);</string>
+              </property>
+              <property name="text">
+               <string>0.0</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="lineEdit_6">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>110</y>
+                <width>231</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/menu/images/圆角矩形.png);</string>
+              </property>
+              <property name="text">
+               <string>零食</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="tab_2">
+             <attribute name="title">
+              <string>支出</string>
+             </attribute>
+             <widget class="QLineEdit" name="lineEdit_11">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>110</y>
+                <width>231</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/menu/images/圆角矩形.png);</string>
+              </property>
+              <property name="text">
+               <string>零食</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="lineEdit_12">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>40</y>
+                <width>231</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/menu/images/圆角矩形.png);
+</string>
+              </property>
+              <property name="text">
+               <string>0.0</string>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <zorder>label_18</zorder>
+           <zorder>label_9</zorder>
+           <zorder>saveBtn</zorder>
+           <zorder>cancelBtn_4</zorder>
+           <zorder>tabWidget</zorder>
+          </widget>
+         </widget>
+         <zorder>zhangben2</zorder>
+         <zorder>zhangben3</zorder>
+         <zorder>zhangben1</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>281</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QFrame" name="frame_11">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QFrame" name="frame_12">
+          <property name="geometry">
+           <rect>
+            <x>1</x>
+            <y>1</y>
+            <width>279</width>
+            <height>541</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_28">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>281</width>
+             <height>541</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/menu/images/背景.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_10">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>20</y>
+             <width>131</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/menu/images/今日明细.png);
+
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QListWidget" name="listWidget_3">
+           <property name="geometry">
+            <rect>
+             <x>-20</x>
+             <y>80</y>
+             <width>331</width>
+             <height>471</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 123, 87);</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="login_wid">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>911</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="stackedWidgetPage1_4">
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>-19</x>
+        <y>-6</y>
+        <width>931</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/menu/images/bk_1.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>100</y>
+        <width>321</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/menu/images/登录面板.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>550</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>没有账户 点击</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="registerBtn">
+      <property name="geometry">
+       <rect>
+        <x>502</x>
+        <y>547</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-image: url(:/menu/images/注册用户.png);
+}
+QPushButton:hover{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:5px;
+  border: 1px solid #3C80B1;  
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/注册用户.png); 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>150</y>
+        <width>301</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QFrame" name="login_frame">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>91</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/logo.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>150</y>
+            <width>61</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/用户名.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>190</y>
+            <width>61</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/密码.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="loginBtn">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>320</y>
+            <width>71</width>
+            <height>28</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+border-image: url(:/menu/images/登陆.png);
+}
+QPushButton:hover{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:5px;
+  border: 1px solid #3C80B1;  
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/登陆.png);
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="cancelBtn">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>320</y>
+            <width>61</width>
+            <height>28</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+border-image: url(:/menu/images/取消.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/取消被选中.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/取消.png);
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>140</y>
+            <width>158</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/圆角矩形.png);</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_4">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>190</y>
+            <width>158</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/圆角矩形.png);</string>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="menu_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/menu/images/背景.png);
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="richengBtn">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/menu/images/日程按钮标题未选中.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/日程标题按钮.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/日程按钮标题未选中.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="jishiBtn">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>20</y>
+       <width>61</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/menu/images/笔记按钮未选中.png);
+
+}
+
+QPushButton:hover{
+border-image: url(:/menu/images/笔记按钮.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/笔记按钮未选中.png);
+
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="signoutBtn">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>40</y>
+       <width>61</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(214, 214, 214, 255), stop:0.5 rgba(236, 236, 236, 255));
+border: 1px solid rgb(124, 124, 124);
+border-radius:5px;
+border-image:0;
+}
+QPushButton:hover{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:5px;
+  border: 1px solid #3C80B1;
+border-image:0;  
+}
+QPushButton:pressed{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+border-image:0;
+}</string>
+     </property>
+     <property name="text">
+      <string>注销</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="renmaiBtn">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/menu/images/人脉按钮未选中.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/人脉按钮.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/人脉按钮未选中.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="zhangbenBtn">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>20</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/menu/images/财务按钮未选中.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/财务按钮.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/财务按钮未选中.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>71</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/menu/images/logo.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="closeBtn">
+     <property name="geometry">
+      <rect>
+       <x>872</x>
+       <y>0</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+
+}
+QPushButton:hover{
+background-color: rgb(255, 0, 0);
+}
+QPushButton:pressed{
+
+}</string>
+     </property>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="minBtn">
+     <property name="geometry">
+      <rect>
+       <x>850</x>
+       <y>0</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+
+border: 1px solid rgb(124, 124, 124);
+border-bottom:0;
+border-image:0;
+}
+QPushButton:hover{
+ border: 1px solid #3C80B1;
+border-image:0;  
+border-bottom:0;
+}
+QPushButton:pressed{
+
+  border: 1px solid #5F92B2;  
+border-image:0;
+border-bottom:0;
+}</string>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QListView" name="userlist">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>40</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:0;</string>
+     </property>
+    </widget>
+    <zorder>renmaiBtn</zorder>
+    <zorder>signoutBtn</zorder>
+    <zorder>zhangbenBtn</zorder>
+    <zorder>jishiBtn</zorder>
+    <zorder>richengBtn</zorder>
+    <zorder>label_11</zorder>
+    <zorder>closeBtn</zorder>
+    <zorder>minBtn</zorder>
+    <zorder>userlist</zorder>
+   </widget>
+   <widget class="QStackedWidget" name="register_wid">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="stackedWidgetPage1_5">
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>931</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/menu/images/bk_1.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>100</y>
+        <width>321</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/menu/images/登录面板.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>130</y>
+        <width>301</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QFrame" name="login_frame_2">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>20</y>
+            <width>91</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/logo.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>150</y>
+            <width>61</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/用户名.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>200</y>
+            <width>61</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/密码.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="registerBtn_2">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>317</y>
+            <width>61</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+border-image: url(:/menu/images/确定被选中.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/确定.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/确定被选中.png);
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="cancelBtn_2">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>320</y>
+            <width>61</width>
+            <height>28</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+border-image: url(:/menu/images/取消.png);
+}
+QPushButton:hover{
+border-image: url(:/menu/images/取消被选中.png);
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/取消.png);
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_8">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>140</y>
+            <width>158</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/圆角矩形.png);
+
+</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_9">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>190</y>
+            <width>158</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/圆角矩形.png);</string>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>240</y>
+            <width>101</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/密码确认.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_10">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>240</y>
+            <width>161</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/menu/images/圆角矩形.png);</string>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="loginBtn_2">
+      <property name="geometry">
+       <rect>
+        <x>522</x>
+        <y>527</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-image: url(:/menu/images/登陆.png);
+}
+QPushButton:hover{
+  background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+  border-radius:5px;
+  border: 1px solid #3C80B1;  
+}
+QPushButton:pressed{
+border-image: url(:/menu/images/登陆.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>530</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>已有账户 点击</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <zorder>zhangben_wid_2</zorder>
+   <zorder>register_wid</zorder>
+   <zorder>login_wid</zorder>
+   <zorder>menu_frame</zorder>
+   <zorder>renmai_swid</zorder>
+   <zorder>main_wid</zorder>
+   <zorder>jishi_wid</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

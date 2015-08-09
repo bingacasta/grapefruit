@@ -1,0 +1,122 @@
+<RCC>
+    <qresource prefix="/menu">
+        <file>images/星期二 被选中.png</file>
+        <file>images/星期二.png</file>
+        <file>images/星期六 被选中.png</file>
+        <file>images/星期六.png</file>
+        <file>images/星期日 被选中.png</file>
+        <file>images/星期日.png</file>
+        <file>images/星期三 被选中.png</file>
+        <file>images/星期三.png</file>
+        <file>images/星期四 被选中.png</file>
+        <file>images/星期四.png</file>
+        <file>images/星期五 被选中.png</file>
+        <file>images/星期五.png</file>
+        <file>images/星期一 被选中.png</file>
+        <file>images/星期一.png</file>
+        <file>images/家人 被选中.png</file>
+        <file>images/家人.png</file>
+        <file>images/驴友 被选中.png</file>
+        <file>images/驴友.png</file>
+        <file>images/朋友 被选中.png</file>
+        <file>images/朋友.png</file>
+        <file>images/其他 被选中.png</file>
+        <file>images/其他.png</file>
+        <file>images/人脉.png</file>
+        <file>images/社区 被选中.png</file>
+        <file>images/社区.png</file>
+        <file>images/同事 被选中.png</file>
+        <file>images/同事.png</file>
+        <file>images/同学 被选中.png</file>
+        <file>images/同学.png</file>
+        <file>images/大象喷水 星期显示.png</file>
+        <file>images/标题 笔记.png</file>
+        <file>images/标题 人脉.png</file>
+        <file>images/标题 日程.png</file>
+        <file>images/标题 效果.png</file>
+        <file>images/标题 账本.png</file>
+        <file>images/标题笔记.png</file>
+        <file>images/标题笔记被选中.png</file>
+        <file>images/标题人脉.png</file>
+        <file>images/标题人脉被选中.png</file>
+        <file>images/标题日程.png</file>
+        <file>images/标题日程被选中.png</file>
+        <file>images/标题账本.png</file>
+        <file>images/标题账本被选中.png</file>
+        <file>images/财务.png</file>
+        <file>images/收入 被选中.png</file>
+        <file>images/收入.png</file>
+        <file>images/支出 被选中.png</file>
+        <file>images/支出.png</file>
+        <file>images/取消.png</file>
+        <file>images/确定.png</file>
+        <file>images/添加.png</file>
+        <file>images/笔记.png</file>
+        <file>images/确定1.png</file>
+        <file>images/取消被选中.png</file>
+        <file>images/确定被选中.png</file>
+        <file>images/笔记添加按钮.png</file>
+        <file>images/笔记添加按钮1.png</file>
+        <file>images/背景.png</file>
+        <file>images/笔记按钮.png</file>
+        <file>images/笔记按钮未选中.png</file>
+        <file>images/财务按钮.png</file>
+        <file>images/财务按钮未选中.png</file>
+        <file>images/人脉按钮.png</file>
+        <file>images/人脉按钮未选中.png</file>
+        <file>images/日程按钮标题未选中.png</file>
+        <file>images/日程标题按钮.png</file>
+        <file>images/编辑.png</file>
+        <file>images/不可编辑书本.png</file>
+        <file>images/删除.png</file>
+        <file>images/添加笔记.png</file>
+        <file>images/我的笔记.png</file>
+        <file>images/保存.png</file>
+        <file>images/记一笔.png</file>
+        <file>images/记一笔标题.png</file>
+        <file>images/今日明细.png</file>
+        <file>images/圆角矩形.png</file>
+        <file>images/背景1.png</file>
+        <file>images/注销.png</file>
+        <file>images/保存被选中.png</file>
+        <file>images/财务界面.png</file>
+        <file>images/星期二被选中.png</file>
+        <file>images/星期六被选中.png</file>
+        <file>images/星期三被选中.png</file>
+        <file>images/星期四被选中.png</file>
+        <file>images/星期天.png</file>
+        <file>images/星期天被选中.png</file>
+        <file>images/星期五被选中.png</file>
+        <file>images/星期一被选中.png</file>
+        <file>images/笔记添加按钮(1).png</file>
+        <file>images/添加按钮按下.png</file>
+        <file>images/大象.png</file>
+        <file>images/添加0.png</file>
+        <file>images/添加1.png</file>
+        <file>images/人脉界面.png</file>
+        <file>images/每日任务.png</file>
+        <file>images/3.png</file>
+        <file>images/1.png</file>
+        <file>images/2.png</file>
+        <file>images/4.png</file>
+        <file>images/back1.jpg</file>
+        <file>images/menu1.jpg</file>
+        <file>images/menu2.jpg</file>
+        <file>images/menu3.jpg</file>
+        <file>images/menu4.jpg</file>
+        <file>images/家人被选中.png</file>
+        <file>images/朋友被选中.png</file>
+        <file>images/水滴.png</file>
+        <file>images/同事被选中.png</file>
+        <file>images/bk_1.png</file>
+        <file>images/登陆.png</file>
+        <file>images/登录面板.png</file>
+        <file>images/密码.png</file>
+        <file>images/用户名.png</file>
+        <file>images/注册用户.png</file>
+        <file>images/登陆被选中.png</file>
+        <file>images/密码确认.png</file>
+        <file>images/logo.png</file>
+        <file>images/小红旗.jpg</file>
+    </qresource>
+</RCC>
